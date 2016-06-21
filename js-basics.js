@@ -38,6 +38,13 @@ halfOf(5);
 // **Complete four of the following problems**
 
 // 3. Create a script with two variables assigned to two numbers. Add them together and output the result to the console. Now do the same with two strings.
+var q = 4;
+var r =2;
+console.log(q+r);
+
+var s = "hello";
+var t = " world!";
+console.log(s+t);
 
 // 4. Create a multidimensional array related to a subject that interests you. Output two of the items in sub-arrays to the console.
 
