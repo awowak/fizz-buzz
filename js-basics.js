@@ -14,16 +14,16 @@ for(var i=10; i>0; i--) {
 }
 console.log("go!!!");
 
-for(var i=0;i<=20 ; i++) {
-    if(i % 2 === 0) {
-        console.log(i + " is even");
+for(var m=0; m<=20 ; m++) {
+    if(m % 2 === 0) {
+        console.log(m + " is even");
     } else {
-        console.log(i + " is odd");
+        console.log(m + " is odd");
     }
 }
 
 var rainbowColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
-for (var i = 0; i < rainbowColors.length; i++) {
+for (var b = 0; b < rainbowColors.length; b++) {
   console.log(rainbowColors[i]);
 }
 
