@@ -1,20 +1,20 @@
 // 1. Create a "cheat sheet" JavaScript file that contains working examples with comments of:
-// Variables: container for a value
+// Variables: container for a value (i.e., x = 4;)
 // Debugging (alerts, comments, the console): debug in chrome, console.log, breakpoints
-// Different data types: string, Boolean, number, undetermined
-// Arrays: holds collection of data
+// Different data types: string ('this is a string'), Boolean, number [3], undetermined 
+// Arrays: holds collection of data [ 4, 3242, 'gwenyth paltrow']
 // Testing: test in console log, repl.it
 // Logic: if, else
 // Functions: arguments, returns value
 
 // 2. Write 3 different functions that take input and return something via the console or an alert.
 
-for(var i=10; i>0; i--) {
+for(var i = 10; i > 0; i--) {
     console.log(i);
 }
 console.log("go!!!");
 
-for(var m=0; m<=20 ; m++) {
+for(var m = 0; m <= 20 ; m++) {
     if(m % 2 === 0) {
         console.log(m + " is even");
     } else {
@@ -49,8 +49,28 @@ console.log(s+t);
 // 4. Create a multidimensional array related to a subject that interests you. Output two of the items in sub-arrays to the console.
 
 // 5. Write a script that checks if a variable is less than 10. If it is, alert the user that their variable is less than 10. If it is not, using the console, let the user know that what the variable was and that it was greater than 10.
+function checkVal(num) {
+    if(num < 10) {
+        alert("your num is less than ten!");
+    } else {
+        if(num > 10) {
+            alert("your num is too big! much larger than ten!");
+        }
+    }
+}
+checkVal(89);
 
 // 6. Try running the script and then changing the variable's value to see how this affects the program's output.
+function checkVal(num) {
+    if(num < 10) {
+        alert("your num is less than ten!");
+    } else {
+        if(num > 10) {
+            alert("your num is too big! much larger than ten!");
+        }
+    }
+}
+checkVal(2);
 
 // 7. Write a similar program to check if a string stored in a variable is the same as another string.
 
@@ -60,7 +80,7 @@ console.log(s+t);
 
 // ### Additional Problem
 
-// 10. Declare a function that depending upon which virtual 'door' was entered tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options.
+// 10. Declare a function that, depending upon which virtual 'door' was entered, tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options.
 
 // ## Grading Criteria
 
